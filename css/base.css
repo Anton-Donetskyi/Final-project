@@ -1,0 +1,53 @@
+
+html, body {									/* футер прижат к низу */
+	height: 100%;
+}
+
+.wrapper {
+	display: table;
+	width: 100%;
+	min-height: 100%;
+}
+
+.page-container {
+	display: table-row;
+	height: 100%;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 940px;
+	overflow: hidden;
+}
+
+.logo {
+	float: left;
+	width: 128px;
+}
+
+.page-header {
+	height: 67px;
+	background-color: #373737;
+}
+
+.nav {
+
+	&-list {
+		list-style: none;
+	}
+
+	&-link {
+		text-decoration: none;
+		font-size: 48px;
+	}
+}
+
+.nav-link {
+	text-decoration: none;
+}
+
+.nav-list {
+	font-size: 0;
+	text-align: right;
+	list-style: none;
+}
